@@ -163,6 +163,7 @@ void Queue<T>::clear()
         head = head->next;
         delete killer;
     }
+    counter = 0;
 }
 
 
